@@ -1,0 +1,35 @@
+# .gitignore for Python projects
+# This file excludes commonly generated and temporary files/directories
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Compiled Python files
+*.pyc
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller output
+dist/
+build/
+my_data_analysis_app.spec
